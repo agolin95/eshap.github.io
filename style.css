@@ -26,10 +26,12 @@ img {
     height: 300px;
 }
 
-span {
+span, a {
     cursor: pointer;
+    color: red;
+    text-decoration: none;
 }
 
-span:hover {
+span:hover, a:hover {
     color: #821a05;
 }
