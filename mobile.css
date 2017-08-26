@@ -1,0 +1,138 @@
+
+@media screen and (max-width: 750px) {
+     /* start of phone styles */
+  #header {
+    min-width: 0px;
+    height: 40px;
+  }
+  
+  #title {
+    width: calc(100% - 10px - 80px );
+    margin-top: 0px;
+  }
+  
+  .clubImg {
+    width: 40px;
+  }
+  
+  #tagline {
+    min-width: 0px;
+    font-size: 20px!important;
+    margin-top: 0px;
+  }
+  
+  .articleWrap{
+    padding-top: 0px;
+    min-width: 0px;
+    padding: 0px;
+  }
+  
+  .articleBox {
+    width: 100%;
+    padding: 0px;
+    border-radius: 0px;
+    height: auto;
+  }
+  
+  .articleImg {
+    height:auto!important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+    padding-top: 20px;
+  }
+  
+  .articleImg img{
+    height: auto;
+    width: 100%;
+  }
+  
+  .articleTxt {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .articleTitle {
+    font-size: 16px;
+  }
+  
+  .featureBox {
+    min-width: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  
+  .featureBox .articleTitle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  }
+  
+  #laurelWrap {
+    height: 100px;
+  }
+  
+  .youtube {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+  }
+  
+  .youtube iframe{
+    height: 180px;
+  }
+  
+  .youtube h4 {
+    margin: 0px;
+    padding-bottom: 15px;
+  }
+  
+  #aboutWrap {
+    min-width: 0px;
+    padding: 0px;
+  }
+  
+  #about {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #joinUs {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  #footer {
+    width: 100%;
+    padding: 0px;
+    min-width: 0px
+  }
+  
+  #contactWrap {
+    display: none;
+  }
+  #mobileContact {
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #mobileContact div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
