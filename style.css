@@ -209,7 +209,7 @@ h4 {
   display: none;
 }
 
-#emailButton:hover, #twitterButton:hover {
+.emailButton:hover, .twitterButton:hover {
   cursor: pointer;
   color: var(--2);
 }

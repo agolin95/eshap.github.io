@@ -135,4 +135,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  
+  #mobileContact div img {
+	  height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
