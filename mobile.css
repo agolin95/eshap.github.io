@@ -37,16 +37,23 @@
   }
   
   .articleImg {
-    height:auto!important;
+    height:50vw;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     display: block;
+    background-size: cover;
+  }
+  
+  #sebastian .articleImg {
+    background-image: url(./img/sebastian.jpeg)
+  }
+  #variety .articleImg {
+    background-image: url(./img/variety.jpg)
   }
   
   .articleImg img{
-    height: 100%;
-    width: 100%;
+display: none;
   }
   
   .articleTxt {
