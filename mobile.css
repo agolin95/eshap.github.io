@@ -25,6 +25,7 @@
     padding-top: 0px;
     min-width: 0px;
     padding: 0px;
+    margin-bottom: 20px;
   }
   
   .articleBox {
@@ -32,6 +33,7 @@
     padding: 0px;
     border-radius: 0px;
     height: auto;
+    padding-top: 20px;
   }
   
   .articleImg {
@@ -40,11 +42,10 @@
     margin-right: auto;
     width: 80%;
     display: block;
-    padding-top: 20px;
   }
   
   .articleImg img{
-    height: auto;
+    height: 100%;
     width: 100%;
   }
   
