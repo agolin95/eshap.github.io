@@ -1,7 +1,8 @@
 :root {
   --1: #181E33;
   --2: #B21414;
-  --headerheight: 75px;
+  --3: #f08071;
+  --headerheight: 100px;
   --minwidth: 700px;
 }
 
@@ -10,6 +11,7 @@ html {
 }
 
 body {
+    min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
     background: white;
@@ -51,6 +53,31 @@ h4 {
   width: 100%;
 }
 
+.menuBar {
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+
+.menuBar a {
+  color: white;
+}
+
+.menuLink {
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menuLink.active {
+  color: var(--3);
+}
+
+
 #tagline {
   text-align: center;
   font-size: 3vw;
@@ -74,6 +101,33 @@ h4 {
       font-size: 42px!important;
     }
 }
+
+.watchNow {
+  text-align: center;
+  background-color: var(--1);
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.watchNow h4 {
+padding: 10px;
+margin-bottom: 0px;
+}
+
+.watchLink {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
 
 .articleWrap {
   min-width: var(--minwidth);
@@ -104,6 +158,11 @@ h4 {
   border-radius: 5px;
 }
 
+.articleImg {
+  background-position: center;
+  background-size: cover;
+}
+
 .articleImg img {
   height: 100%;
 }
@@ -129,6 +188,21 @@ h4 {
   font-size: 12px;
   margin-top: 5px;
   color: #bbbbbb;
+}
+
+.readMore {
+  text-align: center;
+  color: var(--2);
+  margin-top: -8px;
+  font-size: 16px;
+  text-decoration: none;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.readMore:hover {
+  color: var(--3);
 }
 
 .featureBox {
@@ -186,6 +260,7 @@ h4 {
 #joinUs {
   color: var(--2);
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 #footer {
@@ -215,5 +290,27 @@ h4 {
 
 .emailButton:hover, .twitterButton:hover {
   cursor: pointer;
-  color: var(--2);
+  color: var(--3);
+}
+
+
+#evan {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  border: solid var(--1) 5px;
+}
+
+#contactInfo {
+  text-align: center;
+  font-size: 26px;
+    padding-bottom: 50px;
+}
+
+#contactInfo h4{
+  font-size: 32px;
 }
