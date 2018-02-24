@@ -1,9 +1,3 @@
-$( document ).ready(function() {
-   $(function(){
-     $("#footer").load("footer.html");
-   });
-
-});
 $(function() {
     $('.emailButton').click(function() {
         window.location.href = ('mailto:eshapiro@eshap.tv');
@@ -46,8 +40,7 @@ $(function() {
       window.open("http://www.broadcastingcable.com/news/programming/evan-shapiro-launches-comedy-series-bartlett-vimeo/170991", '_blank');
    });
    $('#deadline').click(function() {
-      window.open("http://deadline.com/2018/01/evan-shapiro-on-producing-in-a-digital-world-adapting-youtube-material-and-reteaming-with-lin-manuel-miranda-1202274178/", '_blank');
-   });
+      window.open("http://deadline.com/2018/01/evan-shapiro-on-producing-in-a-digital-world-adapting-youtube-material-and-reteaming-with-lin-manuel-miranda-1202274178/", '_blank');   });
    $('#tubefilter').click(function() {
       window.open("https://www.tubefilter.com/2018/01/31/bartlett-evan-shapiro-lin-manuel-miranda/", '_blank');
    });
