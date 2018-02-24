@@ -54,4 +54,7 @@ $(function() {
    $('#thewrap').click(function() {
       window.open("https://www.thewrap.com/peak-tv-arms-race-evan-shapiro-shaping-way-make-sell-watch-guest-blog/", '_blank');
    });
+   $('#billboard').click(function() {
+      window.open("https://www.billboard.com/articles/business/8214723/the-hard-times-matt-saincome-spotlight-interview", '_blank');
+   });
 });
